@@ -37,15 +37,17 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", {
+    staticClass: "relative flex flex-col justify-between items-center gap-2"
+  }, [_c("div", {
     staticClass: "flex flex-col justify-center items-center gap-2"
-  }, [_vm._m(0), _vm._v(" "), _c("div", _vm._l(Array(10).fill(), function (item, i) {
+  }, [_vm._m(0), _vm._v(" "), _c("div", _vm._l(Array(11).fill(), function (item, i) {
     return _c("div", {
       key: i,
       staticClass: "py-2"
     }, [_c("p", {
       staticClass: "text-sm text-black leading-5 tracking-5 pr-10 pt-5 border-t"
-    }, [_vm._v("\n        Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n      ")])]);
-  }), 0), _vm._v(" "), _c("div", {
+    }, [_vm._v("\n          Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n        ")])]);
+  }), 0)]), _vm._v(" "), _c("div", {
     staticClass: "mt-10 flex justify-end items-end"
   }, [_c("div", {
     staticClass: "flex flex-row justify-start items-center gap-2 text-red-500"

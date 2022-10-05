@@ -37,7 +37,7 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", {
-    staticClass: "flex flex-col justify-center items-center gap-2"
+    staticClass: "relative flex flex-col justify-center items-center gap-2"
   }, [_c("div", {
     staticClass: "inline-flex justify-center items-center w-full"
   }, [_c("hr", {
@@ -59,9 +59,9 @@ var render = function render() {
     return _c("div", {
       key: i,
       staticClass: "pt-5"
-    }, [_c("circular-image")], 1);
+    }, [_c("CircularImage")], 1);
   }), 0), _vm._v(" "), _c("div", {
-    staticClass: "mt-10 flex justify-end items-end"
+    staticClass: "mt-10 mb-5 flex justify-end self-end relative"
   }, [_c("div", {
     staticClass: "flex flex-row justify-start items-center gap-2 text-red-500"
   }, [_c("p", {

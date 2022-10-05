@@ -37799,7 +37799,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_src_components_Navigation_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_CircularImage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_src_components_Navigation_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_modules_HomeModule_Jumbotron_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_CircularImage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
