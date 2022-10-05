@@ -10,7 +10,8 @@ import {
   faTimes as fasTimes,
   faBars as fasBars,
   faMagnifyingGlass as farMagnifyingGlass,
-  faArrowTrendUp as farArrowTrendUp
+  faArrowTrendUp as farArrowTrendUp,
+  faArrowRight as farArrowRight,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -29,7 +30,7 @@ library.add(
   fasCircleNotch, fasChevronLeft,
   fasChevronDown, fasCheck,
   fasTimes, fasBars,
-  farArrowTrendUp
+  farArrowTrendUp, farArrowRight
 )
 
 library.add(

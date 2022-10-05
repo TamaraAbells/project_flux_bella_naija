@@ -11,7 +11,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    CircularImage: function CircularImage() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_components_CircularImage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./CircularImage */ "./resources/js/src/components/CircularImage.vue"));
+    }
+  }
+});
 
 /***/ }),
 
@@ -30,22 +36,24 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("div", [_c("div", {
+  return _c("div", {
+    staticClass: "flex flex-col justify-center items-center gap-2"
+  }, [_c("div", {
     staticClass: "inline-flex justify-center items-center w-full"
   }, [_c("hr", {
-    staticClass: "my-8 w-80 h-1 bg-gray-200 rounded border-0 dark:bg-gray-700"
+    staticClass: "my-8 w-80 h-1 bg-red-500 rounded border-0"
   }), _vm._v(" "), _c("div", {
     staticClass: "absolute px-4 bg-white -translate-x-1/2"
   }, [_c("div", {
     staticClass: "flex justify-center items-center gap-3"
   }, [_c("font-awesome-icon", {
-    staticClass: "h-8",
+    staticClass: "h-8 text-red-500",
     attrs: {
       icon: "fa-solid fa-arrow-trend-up"
     }
   }), _vm._v(" "), _c("h1", {
     staticClass: "text-3xl uppercase font-black"
-  }, [_vm._v("Trending")])], 1)])])]);
+  }, [_vm._v("Trending")])], 1)])]), _vm._v(" "), _c("div", [_c("circular-image")], 1)]);
 };
 
 var staticRenderFns = [];
