@@ -1,3 +1,4 @@
+"use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_components_Navigation_vue"],{
 
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Navigation.vue?vue&type=script&lang=js&":
@@ -6,7 +7,6 @@
   \*****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -21,7 +21,6 @@ __webpack_require__.r(__webpack_exports__);
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render),
@@ -44,7 +43,7 @@ var render = function render() {
   })], 1), _vm._v(" "), _c("div", [_c("img", {
     staticClass: "h-10",
     attrs: {
-      src: __webpack_require__(/*! ../assets/logo-word-black-small@2x.png */ "./resources/js/assets/logo-word-black-small@2x.png")
+      src: __webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../assets/logo-word-black-small@2x.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
     }
   })]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("div", {
     staticClass: "flex justify-center items-center gap-5"
@@ -91,23 +90,12 @@ render._withStripped = true;
 
 /***/ }),
 
-/***/ "./resources/js/assets/logo-word-black-small@2x.png":
-/*!**********************************************************!*\
-  !*** ./resources/js/assets/logo-word-black-small@2x.png ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-module.exports = "/images/logo-word-black-small@2x.png?bb3fe0841b27b0f04bfb739bad3f0bb3";
-
-/***/ }),
-
 /***/ "./resources/js/components/Navigation.vue":
 /*!************************************************!*\
   !*** ./resources/js/components/Navigation.vue ***!
   \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -146,7 +134,6 @@ component.options.__file = "resources/js/components/Navigation.vue"
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -162,7 +149,6 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_template_id_d456e682___WEBPACK_IMPORTED_MODULE_0__.render),

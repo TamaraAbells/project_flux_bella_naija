@@ -9,7 +9,8 @@ import {
   faCheck as fasCheck,
   faTimes as fasTimes,
   faBars as fasBars,
-  faMagnifyingGlass as farMagnifyingGlass
+  faMagnifyingGlass as farMagnifyingGlass,
+  faArrowTrendUp as farArrowTrendUp
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -27,7 +28,8 @@ import {
 library.add(
   fasCircleNotch, fasChevronLeft,
   fasChevronDown, fasCheck,
-  fasTimes, fasBars
+  fasTimes, fasBars,
+  farArrowTrendUp
 )
 
 library.add(

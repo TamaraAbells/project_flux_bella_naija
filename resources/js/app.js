@@ -4,9 +4,9 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 
-import App from './App.vue'
-import routes from './router'
-import './plugins'
+import App from './src/App'
+import routes from './src/router'
+import './src/plugins'
 
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)

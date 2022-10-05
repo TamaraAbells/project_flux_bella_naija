@@ -8,7 +8,7 @@
 <script>
 export default {
   components: {
-    Navigation: () => import('./components/Navigation.vue')
+    Navigation: () => import('./components/Navigation')
   }
 }
 </script>
