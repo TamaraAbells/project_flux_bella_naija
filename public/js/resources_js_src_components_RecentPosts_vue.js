@@ -1,4 +1,3 @@
-"use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_src_components_RecentPosts_vue"],{
 
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/src/components/RecentPosts.vue?vue&type=script&lang=js&":
@@ -7,6 +6,7 @@
   \**********************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     CircularImage: function CircularImage() {
-      return __webpack_require__.e(/*! import() */ "resources_js_src_components_CircularImage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./CircularImage */ "./resources/js/src/components/CircularImage.vue"));
+      return __webpack_require__.e(/*! import() */ "resources_js_src_components_CircularImage_vue-_cf4b1").then(__webpack_require__.bind(__webpack_require__, /*! ./CircularImage */ "./resources/js/src/components/CircularImage.vue"));
     }
   }
 });
@@ -27,6 +27,7 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render),
@@ -44,9 +45,16 @@ var render = function render() {
     return _c("div", {
       key: i,
       staticClass: "py-1"
-    }, [_c("p", {
-      staticClass: "text-sm text-black leading-5 tracking-5 pr-10 pb-2 border-b"
-    }, [_vm._v("\n          Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n        ")])]);
+    }, [_c("div", {
+      staticClass: "flex justify-start items-start gap-2 pr-10 pb-2 border-b"
+    }, [_c("div", [_c("img", {
+      staticClass: "rounded-sm w-24",
+      attrs: {
+        src: __webpack_require__(/*! ../assets/maxresdefault-1-400x400.jpg */ "./resources/js/src/assets/maxresdefault-1-400x400.jpg")
+      }
+    })]), _vm._v(" "), _c("p", {
+      staticClass: "text-sm text-black"
+    }, [_vm._v("\n            Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n          ")])])]);
   }), 0)])]);
 };
 
@@ -71,12 +79,23 @@ render._withStripped = true;
 
 /***/ }),
 
+/***/ "./resources/js/src/assets/maxresdefault-1-400x400.jpg":
+/*!*************************************************************!*\
+  !*** ./resources/js/src/assets/maxresdefault-1-400x400.jpg ***!
+  \*************************************************************/
+/***/ ((module) => {
+
+module.exports = "/images/maxresdefault-1-400x400.jpg?1751b40f5af74e7555fec2e6ac13d435";
+
+/***/ }),
+
 /***/ "./resources/js/src/components/RecentPosts.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/src/components/RecentPosts.vue ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -115,6 +134,7 @@ component.options.__file = "resources/js/src/components/RecentPosts.vue"
   \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -130,6 +150,7 @@ __webpack_require__.r(__webpack_exports__);
   \************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_RecentPosts_vue_vue_type_template_id_9bda6db0___WEBPACK_IMPORTED_MODULE_0__.render),

@@ -11,9 +11,16 @@
       </div>
       <div>
         <div v-for="item, i in Array(11).fill()" :key="i" class="py-1">
-          <p class="text-sm text-black leading-5 tracking-5 pr-10 pb-2 border-b">
-            Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out
-          </p>
+          <div class="flex justify-start items-start gap-2 pr-10 pb-2 border-b">
+            <div>
+              <img class="rounded-sm w-24"
+                :src="require('../assets/maxresdefault-1-400x400.jpg')"
+              />
+            </div>
+            <p class="text-sm text-black">
+              Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out
+            </p>
+          </div>
         </div>
       </div>
     </div>

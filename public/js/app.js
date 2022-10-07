@@ -2712,8 +2712,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    Navigation: function Navigation() {
-      return __webpack_require__.e(/*! import() */ "resources_js_src_components_Navigation_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Navigation */ "./resources/js/src/components/Navigation.vue"));
+    Header: function Header() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_components_Header_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Header */ "./resources/js/src/components/Header.vue"));
+    },
+    Footer: function Footer() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_components_Footer_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Footer */ "./resources/js/src/components/Footer.vue"));
     }
   }
 });
@@ -2736,7 +2739,7 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("div", [_c("navigation"), _vm._v(" "), _c("router-view")], 1);
+  return _c("div", [_c("Header"), _vm._v(" "), _c("router-view"), _vm._v(" "), _c("Footer")], 1);
 };
 
 var staticRenderFns = [];
@@ -37799,7 +37802,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_src_components_Navigation_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_modules_HomeModule_Jumbotron_vue":1,"resources_js_src_modules_HomeModule_SpotLight_vue":1,"resources_js_src_modules_HomeModule_PostSection_vue":1,"resources_js_src_modules_HomeModule_Explore_vue":1,"resources_js_src_modules_HomeModule_MoreFunStuff_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_VerticalCard_vue":1,"resources_js_src_components_NewPostsCard_vue":1,"resources_js_src_components_RecentComments_vue":1,"resources_js_src_components_RecentPosts_vue":1,"resources_js_src_components_SquaredCard_vue":1,"resources_js_src_components_CircularImage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_src_components_Header_vue":1,"resources_js_src_components_Footer_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_modules_HomeModule_Jumbotron_vue":1,"resources_js_src_modules_HomeModule_SpotLight_vue":1,"resources_js_src_modules_HomeModule_PostSection_vue":1,"resources_js_src_modules_HomeModule_Explore_vue":1,"resources_js_src_modules_HomeModule_MoreFunStuff_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_VerticalCard_vue":1,"resources_js_src_components_NewPostsCard_vue":1,"resources_js_src_components_RecentComments_vue":1,"resources_js_src_components_RecentPosts_vue":1,"resources_js_src_components_SquaredCard_vue":1,"resources_js_src_components_CircularImage_vue-_cf4b0":1,"resources_js_src_components_CircularImage_vue-_cf4b1":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
