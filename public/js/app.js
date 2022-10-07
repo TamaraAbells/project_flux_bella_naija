@@ -2844,6 +2844,18 @@ var routes = [{
   component: function component() {
     return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_index_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../modules/HomeModule */ "./resources/js/src/modules/HomeModule/index.vue"));
   }
+}, {
+  path: '/category/:category',
+  name: 'CategoryModule',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ "resources_js_src_modules_CategoryModule_index_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../modules/CategoryModule */ "./resources/js/src/modules/CategoryModule/index.vue"));
+  }
+}, {
+  path: '/post/:post',
+  name: 'PostModule',
+  component: function component() {
+    return __webpack_require__.e(/*! import() */ "resources_js_src_modules_PostModule_index_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../modules/PostModule */ "./resources/js/src/modules/PostModule/index.vue"));
+  }
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routes);
 
@@ -37802,7 +37814,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_src_components_Header_vue":1,"resources_js_src_components_Footer_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_modules_HomeModule_Jumbotron_vue":1,"resources_js_src_modules_HomeModule_SpotLight_vue":1,"resources_js_src_modules_HomeModule_PostSection_vue":1,"resources_js_src_modules_HomeModule_Explore_vue":1,"resources_js_src_modules_HomeModule_MoreFunStuff_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_VerticalCard_vue":1,"resources_js_src_components_NewPostsCard_vue":1,"resources_js_src_components_RecentComments_vue":1,"resources_js_src_components_RecentPosts_vue":1,"resources_js_src_components_SquaredCard_vue":1,"resources_js_src_components_CircularImage_vue-_cf4b0":1,"resources_js_src_components_CircularImage_vue-_cf4b1":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_src_components_Header_vue":1,"resources_js_src_components_Footer_vue":1,"resources_js_src_modules_HomeModule_index_vue":1,"resources_js_src_modules_CategoryModule_index_vue":1,"resources_js_src_modules_PostModule_index_vue":1,"resources_js_src_modules_HomeModule_Jumbotron_vue":1,"resources_js_src_modules_HomeModule_SpotLight_vue":1,"resources_js_src_modules_HomeModule_PostSection_vue":1,"resources_js_src_modules_HomeModule_Explore_vue":1,"resources_js_src_modules_HomeModule_MoreFunStuff_vue":1,"resources_js_src_modules_CategoryModule_Jumbotron_vue":1,"resources_js_src_modules_CategoryModule_PostSection_vue":1,"resources_js_src_modules_CategoryModule_Explore_vue":1,"resources_js_src_modules_CategoryModule_MoreFunStuff_vue":1,"resources_js_src_components_RecentPosts_vue":1,"resources_js_src_modules_PostModule_CommentBox_vue":1,"resources_js_src_modules_PostModule_YouMayLike_vue":1,"resources_js_src_components_TrendingSidebar_vue":1,"resources_js_src_components_LatestSidebar_vue":1,"resources_js_src_components_VerticalCard_vue":1,"resources_js_src_components_NewPostsCard_vue":1,"resources_js_src_components_RecentComments_vue":1,"resources_js_src_components_SquaredCard_vue":1,"resources_js_src_components_CircularImage_vue-_cf4b1":1,"resources_js_src_components_CircularImage_vue-_cf4b0":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

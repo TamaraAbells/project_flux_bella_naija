@@ -41,7 +41,7 @@ var render = function render() {
     staticClass: "relative flex flex-col justify-between items-center gap-2"
   }, [_c("div", {
     staticClass: "flex flex-col justify-center items-center gap-2"
-  }, [_vm._m(0), _vm._v(" "), _c("div", _vm._l(Array(11).fill(), function (item, i) {
+  }, [_vm._m(0), _vm._v(" "), _c("div", _vm._l(Array(10).fill(), function (item, i) {
     return _c("div", {
       key: i,
       staticClass: "py-1"

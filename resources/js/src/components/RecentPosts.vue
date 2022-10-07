@@ -10,7 +10,7 @@
         </div>
       </div>
       <div>
-        <div v-for="item, i in Array(11).fill()" :key="i" class="py-1">
+        <div v-for="item, i in Array(10).fill()" :key="i" class="py-1">
           <div class="flex justify-start items-start gap-2 pr-10 pb-2 border-b">
             <div>
               <img class="rounded-sm w-24"
