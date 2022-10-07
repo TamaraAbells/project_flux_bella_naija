@@ -12,6 +12,7 @@ import {
   faMagnifyingGlass as farMagnifyingGlass,
   faArrowTrendUp as farArrowTrendUp,
   faArrowRight as farArrowRight,
+  faCaretRight as farCaretRight,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -30,7 +31,8 @@ library.add(
   fasCircleNotch, fasChevronLeft,
   fasChevronDown, fasCheck,
   fasTimes, fasBars,
-  farArrowTrendUp, farArrowRight
+  farArrowTrendUp, farArrowRight,
+  farCaretRight
 )
 
 library.add(

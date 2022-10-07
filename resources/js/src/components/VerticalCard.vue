@@ -1,0 +1,40 @@
+<template>
+  <div class="w-80 flex flex-col justify-center align-center gap-2 bg-white">
+    <div class="relative">
+      <img class="w-80 h-80"
+        :src="require('../assets/BellaNaija-Weddings-43-560x600.jpg')"
+      />
+      <div v-if="tag" class="absolute -bottom-3 left-1/3">
+        <div class="bg-red-500 text-black px-3 py-1 text-xs font-bold uppercase">
+          {{ tag }}
+        </div>
+      </div>
+    </div>
+    <div class="my-7">
+      <p class="font-semibold text-base capitalize leading-5 text-center">
+        Watch Episode 11 of Neptune3’s “Best Friends in the World: Senior Year”
+      </p>
+      <template v-if="link">
+        <div class="flex justify-center items-center gap-2 mt-5">
+          <p class="text-black text-sm font-bold uppercase">TAKE ME THERE</p>
+          <font-awesome-icon icon="fa-solid fa-caret-right" class="h-5 text-red-500" />
+        </div>
+      </template>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    link: {
+      type: String,
+      default: ''
+    },
+     tag: {
+      type: String,
+      default: ''
+    }
+  }
+}
+</script>

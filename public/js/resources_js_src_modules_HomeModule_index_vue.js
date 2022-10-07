@@ -15,6 +15,18 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Jumbotron: function Jumbotron() {
       return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_Jumbotron_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./Jumbotron */ "./resources/js/src/modules/HomeModule/Jumbotron.vue"));
+    },
+    SpotLight: function SpotLight() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_SpotLight_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./SpotLight */ "./resources/js/src/modules/HomeModule/SpotLight.vue"));
+    },
+    PostSection: function PostSection() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_PostSection_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./PostSection */ "./resources/js/src/modules/HomeModule/PostSection.vue"));
+    },
+    Explore: function Explore() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_Explore_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./Explore */ "./resources/js/src/modules/HomeModule/Explore.vue"));
+    },
+    MoreFunStuff: function MoreFunStuff() {
+      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_HomeModule_MoreFunStuff_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./MoreFunStuff */ "./resources/js/src/modules/HomeModule/MoreFunStuff.vue"));
     }
   }
 });
@@ -36,7 +48,9 @@ var render = function render() {
   var _vm = this,
       _c = _vm._self._c;
 
-  return _c("div", [_c("Jumbotron")], 1);
+  return _c("div", {
+    staticClass: "flex flex-col gap-5"
+  }, [_c("Jumbotron"), _vm._v(" "), _c("SpotLight"), _vm._v(" "), _c("PostSection"), _vm._v(" "), _c("Explore"), _vm._v(" "), _c("MoreFunStuff")], 1);
 };
 
 var staticRenderFns = [];
