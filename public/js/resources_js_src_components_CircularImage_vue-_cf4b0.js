@@ -34,11 +34,16 @@ var render = function render() {
   return _c("div", {
     staticClass: "flex justify-center"
   }, [_c("div", {
-    staticClass: "flex flex-col justify-center items-center gap-2 w-80"
+    staticClass: "relative flex flex-col justify-center items-center gap-2 w-80 cursor-pointer hover:text-red-500"
   }, [_c("img", {
-    staticClass: "rounded-full w-48 h-48",
+    staticClass: "rounded-full w-48 h-48 cursor-pointer",
     attrs: {
       src: __webpack_require__(/*! ../assets/maxresdefault-1-400x400.jpg */ "./resources/js/src/assets/maxresdefault-1-400x400.jpg")
+    }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
     }
   }), _vm._v(" "), _c("h4", {
     staticClass: "font-normal text-lg tracking-6 leading-6 text-center"

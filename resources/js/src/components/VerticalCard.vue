@@ -1,11 +1,12 @@
 <template>
-  <div class="w-80 flex flex-col justify-center align-center gap-2 bg-white">
-    <div class="relative">
-      <img class="w-80 h-80"
+  <div class="w-80 flex flex-col justify-center align-center gap-2 bg-white hover:text-red-500">
+    <div class="relative cursor-pointer">
+      <img class="w-80 h-80 hover:scale-110 transition duration-300 ease-in-out"
         :src="require('../assets/BellaNaija-Weddings-43-560x600.jpg')"
       />
-      <div v-if="tag" class="absolute -bottom-3 left-1/3">
-        <div class="bg-red-500 text-black px-3 py-1 text-xs font-bold uppercase">
+      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+      <div v-if="tag" class="absolute -bottom-3 left-1/3 hover:text-red-500 cursor-pointer">
+        <div class="bg-red-500 text-black px-3 py-1 text-xs font-bold uppercase cursor-pointer hover:text-red-500">
           {{ tag }}
         </div>
       </div>

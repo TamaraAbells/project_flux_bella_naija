@@ -15,7 +15,6 @@
               With “Anikulapo” Kunle Afolayan Stretches his Creative Range
               The Yoruba Culture Was on Full Display at the Premiere of Kunle Afolayan’s “Anikulapo” | See Photos
             </p>
-            </div>
           </div>
         </div>
       </div>

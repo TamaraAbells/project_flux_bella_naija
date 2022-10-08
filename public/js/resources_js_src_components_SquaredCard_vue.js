@@ -32,11 +32,16 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", {
-    staticClass: "w-48 flex flex-col justify-center align-center gap-2"
+    staticClass: "relative w-48 flex flex-col justify-center align-center gap-2"
   }, [_c("img", {
-    staticClass: "w-48 h-48 z-10 mt-10",
+    staticClass: "w-48 h-48 z-10 mt-10 relative cursor-pointer",
     attrs: {
       src: __webpack_require__(/*! ../assets/BellaNaija-Weddings-43-560x600.jpg */ "./resources/js/src/assets/BellaNaija-Weddings-43-560x600.jpg")
+    }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
     }
   }), _vm._v(" "), _vm._m(0)]);
 };

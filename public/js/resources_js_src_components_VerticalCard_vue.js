@@ -43,18 +43,23 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", {
-    staticClass: "w-80 flex flex-col justify-center align-center gap-2 bg-white"
+    staticClass: "w-80 flex flex-col justify-center align-center gap-2 bg-white hover:text-red-500"
   }, [_c("div", {
-    staticClass: "relative"
+    staticClass: "relative cursor-pointer"
   }, [_c("img", {
-    staticClass: "w-80 h-80",
+    staticClass: "w-80 h-80 hover:scale-110 transition duration-300 ease-in-out",
     attrs: {
       src: __webpack_require__(/*! ../assets/BellaNaija-Weddings-43-560x600.jpg */ "./resources/js/src/assets/BellaNaija-Weddings-43-560x600.jpg")
     }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
+    }
   }), _vm._v(" "), _vm.tag ? _c("div", {
-    staticClass: "absolute -bottom-3 left-1/3"
+    staticClass: "absolute -bottom-3 left-1/3 hover:text-red-500 cursor-pointer"
   }, [_c("div", {
-    staticClass: "bg-red-500 text-black px-3 py-1 text-xs font-bold uppercase"
+    staticClass: "bg-red-500 text-black px-3 py-1 text-xs font-bold uppercase cursor-pointer hover:text-red-500"
   }, [_vm._v("\n        " + _vm._s(_vm.tag) + "\n      ")])]) : _vm._e()]), _vm._v(" "), _c("div", {
     staticClass: "my-7"
   }, [_c("p", {

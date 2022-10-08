@@ -47,13 +47,20 @@ var render = function render() {
       staticClass: "py-1"
     }, [_c("div", {
       staticClass: "flex justify-start items-start gap-2 pr-10 pb-2 border-b"
-    }, [_c("div", [_c("img", {
+    }, [_c("div", {
+      staticClass: "relative cursor-pointer"
+    }, [_c("img", {
       staticClass: "rounded-sm w-24",
       attrs: {
         src: __webpack_require__(/*! ../assets/maxresdefault-1-400x400.jpg */ "./resources/js/src/assets/maxresdefault-1-400x400.jpg")
       }
+    }), _vm._v(" "), _c("div", {
+      staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+      staticStyle: {
+        "background-color": "rgba(251, 251, 251, 0.2)"
+      }
     })]), _vm._v(" "), _c("p", {
-      staticClass: "text-sm text-black"
+      staticClass: "text-sm text-black cursor-pointer hover:text-red-500 hover:underline"
     }, [_vm._v("\n            Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n          ")])])]);
   }), 0)])]);
 };

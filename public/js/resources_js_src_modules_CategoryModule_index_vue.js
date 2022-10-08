@@ -18,12 +18,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     PostSection: function PostSection() {
       return __webpack_require__.e(/*! import() */ "resources_js_src_modules_CategoryModule_PostSection_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./PostSection */ "./resources/js/src/modules/CategoryModule/PostSection.vue"));
-    },
-    Explore: function Explore() {
-      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_CategoryModule_Explore_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./Explore */ "./resources/js/src/modules/CategoryModule/Explore.vue"));
-    },
-    MoreFunStuff: function MoreFunStuff() {
-      return __webpack_require__.e(/*! import() */ "resources_js_src_modules_CategoryModule_MoreFunStuff_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./MoreFunStuff */ "./resources/js/src/modules/CategoryModule/MoreFunStuff.vue"));
     }
   }
 });

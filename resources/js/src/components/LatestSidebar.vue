@@ -11,7 +11,7 @@
       </div>
       <div>
         <div v-for="item, i in Array(11).fill()" :key="i" class="py-2">
-          <p class="text-sm text-black leading-5 tracking-5 pr-10 pt-5 border-t">
+          <p class="text-sm text-black leading-5 tracking-5 pr-10 pt-5 border-t cursor-pointer hover:text-red-500 hover:underline">
             Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out
           </p>
         </div>

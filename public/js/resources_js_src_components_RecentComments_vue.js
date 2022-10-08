@@ -45,7 +45,7 @@ var render = function render() {
       key: i,
       staticClass: "py-1"
     }, [_c("p", {
-      staticClass: "text-sm text-black leading-5 tracking-5 pr-10 pb-2 border-b"
+      staticClass: "text-sm text-black leading-5 tracking-5 pr-10 pb-2 border-b cursor-pointer hover:text-red-500 hover:underline"
     }, [_vm._v("\n          Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n        ")])]);
   }), 0)])]);
 };

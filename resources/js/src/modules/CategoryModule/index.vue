@@ -10,8 +10,6 @@ export default {
   components: {
     Jumbotron: () => import('./Jumbotron'),
     PostSection: () => import('./PostSection'),
-    Explore: () => import('./Explore'),
-    MoreFunStuff: () => import('./MoreFunStuff'),
   }
 }
 </script>

@@ -38,11 +38,16 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", [_c("div", {
-    staticClass: "flex flex-row justify-start gap-5"
+    staticClass: "relative flex flex-row justify-start gap-5 cursor-pointer"
   }, [_c("img", {
-    staticClass: "w-96 h-60",
+    staticClass: "w-96 h-60 cursor-pointer",
     attrs: {
       src: __webpack_require__(/*! ../assets/xiaomi-phone.jpg */ "./resources/js/src/assets/xiaomi-phone.jpg")
+    }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
     }
   }), _vm._v(" "), _vm._m(0)])]);
 };
@@ -56,9 +61,9 @@ var staticRenderFns = [function () {
   }, [_c("div", {
     staticClass: "flex flex-col justify-start"
   }, [_c("p", {
-    staticClass: "font-semibold uppercase text-xs text-gray-500"
+    staticClass: "font-semibold uppercase text-xs text-gray-500 cursor-pointer"
   }, [_vm._v("PROMOTIONS")]), _vm._v(" "), _c("h1", {
-    staticClass: "font-normal capitalize text-base text-black text-2xl"
+    staticClass: "font-normal capitalize text-base text-black text-2xl cursor-pointer"
   }, [_vm._v("\n          Xiaomi 12T Pro Flagship Features Latest 200MP Imaging System | Check it Out\n        ")])]), _vm._v(" "), _c("p", {
     staticClass: "font-normal text-sm text-gray-500"
   }, [_vm._v("\n        Xiaomi 12T Pro' leading imaging system presents unprecedented smartphone imagery experience\n      ")])]);

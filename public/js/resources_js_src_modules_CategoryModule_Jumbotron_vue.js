@@ -49,7 +49,7 @@ var render = function render() {
   }, [_c("RecentComments")], 1), _vm._v(" "), _c("div", {
     staticClass: "flex flex-col justify-center gap-7 basis-1/2"
   }, [_c("div", {
-    staticClass: "relative",
+    staticClass: "relative cursor-pointer",
     staticStyle: {
       width: "550px"
     }
@@ -61,13 +61,25 @@ var render = function render() {
     attrs: {
       src: __webpack_require__(/*! ../../assets/GLITZ-560x600.jpg */ "./resources/js/src/assets/GLITZ-560x600.jpg")
     }
-  }), _vm._v(" "), _vm._m(0)]), _vm._v(" "), _c("div", [_c("img", {
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
+    }
+  }), _vm._v(" "), _vm._m(0)]), _vm._v(" "), _c("div", {
+    staticClass: "relative cursor-pointer"
+  }, [_c("img", {
     staticStyle: {
       width: "600px",
       height: "300px"
     },
     attrs: {
       src: __webpack_require__(/*! ../../assets/pexels-monstera-9490629-2-560x426.jpg */ "./resources/js/src/assets/pexels-monstera-9490629-2-560x426.jpg")
+    }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out",
+    staticStyle: {
+      "background-color": "rgba(251, 251, 251, 0.2)"
     }
   }), _vm._v(" "), _vm._m(1)])]), _vm._v(" "), _c("div", {
     staticClass: "basis-1/4"

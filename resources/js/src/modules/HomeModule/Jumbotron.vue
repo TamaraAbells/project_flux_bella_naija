@@ -6,20 +6,20 @@
           <TrendingSidebar />
         </div>
         <div class="flex flex-col justify-center gap-7 basis-1/2">
-          <div class="relative w-full">
-            <img style="width:600px; height:500px"
-              :src="require('../../assets/GLITZ-560x600.jpg')" />
+          <div class="relative w-full cursor-pointer">
+            <img style="width:600px; height:500px" :src="require('../../assets/GLITZ-560x600.jpg')" />
+            <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out" style="background-color: rgba(251, 251, 251, 0.2)"></div>
             <div class="absolute bottom-0 __gardient-class pb-5 pt-16 px-3">
               <h2 class="text-2xl text-white font-semibold">
                 See The Full Schedule For Glitz Africa Fashion Week 2022
               </h2>
             </div>
           </div>
-          <div>
-            <img style="width:600px; height:300px"
-              :src="require('../../assets/pexels-monstera-9490629-2-560x426.jpg')" />
+          <div class="relative cursor-pointer hover:text-red-500">
+            <img style="width:600px; height:300px" :src="require('../../assets/pexels-monstera-9490629-2-560x426.jpg')" />
+            <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out" style="background-color: rgba(251, 251, 251, 0.2)"></div>
             <div class="py-1">
-              <h2 class="text-2xl text-black font-semibold">
+              <h2 class="text-2xl text-black font-semibold hover:text-red-500">
                 How the Private Sector can Help Students During ASUU Strike
               </h2>
             </div>

@@ -14,6 +14,11 @@ const routes = [
     name: 'PostModule',
     component: () => import('../modules/PostModule')
   },
+  {
+    path: '/admin',
+    name: 'AdminModule',
+    component: () => import('../modules/AdminModule')
+  },
 ]
 
 export default routes
